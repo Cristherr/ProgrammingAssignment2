@@ -1,7 +1,7 @@
 ## Functions that can cache the inverse of a matrix.
 ##  This function creates a special "matrix" object that can cache its inverse.
 
-## Restoring or caching the inverse of a matrix using functions
+## The restoration or caching of the inverse of a matrix using functions
 
 makeCacheMatrix <- function(x = matrix()) {
 inv<- NULL
@@ -20,7 +20,7 @@ list(set = set,get = get,setInverse = setInverse,getInverse = getInverse)
 
 
 
-## Solve function registers the inverse of the special "matrix" restored by makeCacheMatrix. 
+## Solve is a function that registers the inverse of the special "matrix" restored by makeCacheMatrix. 
 When the inverse has been computed, the cacheSolve recovers the inverse out of the cache
 
 cacheSolve <- function(x, ...) {
@@ -34,3 +34,5 @@ inv <- solve(mat, ...)
 x$setInverse(inv)
 inv}
 
+https://github.com/Cristherr/ProgrammingAssignment2.git
+a1a67cbe513b46e7c47d6f5363140c2772d26444
